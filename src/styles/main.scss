@@ -2,6 +2,7 @@
 @use 'componentes/info_bar';
 @use 'componentes/buttons';
 @use 'event';
+@use 'var';
 
 
 *{
@@ -9,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    color: #fff;
+    color: var.$textcolor;
     list-style: none;
 }
 .container{
